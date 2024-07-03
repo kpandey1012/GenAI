@@ -1,0 +1,5 @@
+psutil
+unstructured
+chromadb
+langchain-community==0.2.5
+fastembed
