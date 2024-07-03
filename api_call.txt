@@ -1,0 +1,14 @@
+get_llm_response --> 
+
+curl --location 'http://127.0.0.1:8080/user_questions' \
+--header 'Content-Type: application/json' \
+--data '{
+"query":"tell about machine learning"
+
+}'
+
+
+upload_files-->
+
+curl --location 'http://127.0.0.1:8080/upload_docs' \
+--form 'file=@"/C:/Users/uname/Downloads/Introduction to Machine Learning with Python.pdf"'
