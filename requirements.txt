@@ -1,5 +1,8 @@
-psutil
-unstructured
+streamlit
+pymongo
+langchain
+langchain-community
+ollama
 chromadb
-langchain-community==0.2.5
-fastembed
+docx2txt
+unstructured
